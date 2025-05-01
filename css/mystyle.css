@@ -1,24 +1,79 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
+
+body {
+    background-color: #ffffff;
+}
+.header {
+    background: #0e458b;
+    color: rgb(246, 255, 117);
+    padding: 15px 20px;
     text-align: center;
-    padding: 14px 16px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(34, 108, 206);
+    padding: 10px 0;
+}
+nav a {
+    color: rgb(145, 255, 1);
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #8eda5c;
-  }
+    margin: 0 15px;
+    font-size: 18px;
+}
+.hero {
+    height: 600px;
+    background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.content {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+.cal{
+    size: 50%;
+
+}
+.footer{
+    background-color: #0e458b;
+    color: rgb(246, 255, 117);
+}
+
+.content img {
+    display: block;
+    margin: 10px auto;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: centrer;
+}
+
+.nav{
+    margin-bottom: 20px;
+}
+
+
+.social-icon {
+    width: 50px; 
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Who Are We?</title>
+  <link rel="stylesheet" href="css/mystyle.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <style>
+    .heading1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    .heading2 {
+      font-size: 18px;
+      color: #000000;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .heading3 {
+      font-size: 15px;
+      color: #000000;
+      font-weight: normal;
+      margin-top: 0;
+      line-height: 1.6;
+    }
+
+    /* Card hover effect */
+    .team-member {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .team-member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+    .team-link {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body class="body">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <div class="header"><h1>Who Are We?</h1></div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="courses.html">Careers</a>
+    <a href="whoarewe.html">Who are we?</a>
+    <a href="contactus.html">Contact Us!</a>
+    <a href="apply.html">Apply Here!</a>
+  </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example container my-5 p-4 bg-white rounded-3 shadow-lg">
+    <h2 class="text-center mb-4 text-primary" id="scrollspyHeading1">Meet Our Staff</h2>
+
+    <!-- Team grid with consistent spacing -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      
+      <!-- Profile 1 -->
+      <div class="col">
+        <a href="#" class="team-link">
+          <div class="team-member text-center">
+            <img src="assets/images/calvin.jpg" class="img-fluid rounded shadow mb-3" alt="Team Member 1" />
+            <h1 class="heading1">Calvin</h1>
+            <h2 class="heading2">Web Developer</h2>
+            <h3 class="heading3">Calvin is the backbone of our digital products, crafting clean, responsive websites using modern frameworks. His expertise helps us deliver seamless user experiences.</h3>
+          </div>
+        </a>
+      </div>
+
+      <!-- Profile 2 -->
+      <div class="col">
+        <a href="#" class="team-link">
+          <div class="team-member text-center">
+            <img src="assets/images/joman.jpg" class="img-fluid rounded shadow mb-3" alt="Team Member 2" />
+            <h1 class="heading1">George</h1>
+            <h2 class="heading2">IT Specialist</h2>
+            <h3 class="heading3">George brings 6 years of experience in maintaining hardware and software systems with a focus on reliability and support.</h3>
+          </div>
+        </a>
+      </div>
+
+      <!-- Profile 3 -->
+      <div class="col">
+        <a href="#" class="team-link">
+          <div class="team-member text-center">
+            <img src="assets/images/patrick.jpg" class="img-fluid rounded shadow mb-3" alt="Team Member 3" />
+            <h1 class="heading1">Patrick</h1>
+            <h2 class="heading2">Data Analyst</h2>
+            <h3 class="heading3">Patrick specialises in creating user-friendly interfaces. With a background in graphic design, he combines creativity and precision to deliver exceptional results.</h3>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Text below team -->
+    <div class="content text-center mt-4">
+      <p class="lead text-muted">Apart of our journey, you can get to meet our wonderful staff as seen above!</p>
+    </div>
+  </div>
+
+  <!-- Social section -->
+  <div class="container text-center my-5">
+    <h4 class="text-primary">Follow Us on Social Media</h4>
+    <p>Stay connected and updated with us!</p>
+  </div>
+
+  <div class="d-flex justify-content-center gap-3">
+    <a href="https://facebook.com" target="_blank">
+      <img src="assets/images/facebook.png.png" alt="Facebook" class="social-icon" />
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="assets/images/twitter.png.png" alt="Twitter" class="social-icon" />
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <img src="assets/images/instagram.png" alt="Instagram" class="social-icon" />
+    </a>
+  </div>
+
+  <footer class="footer">
+    2025 Hotbeans Web | Made By Nicolas Ryfa
+  </footer>
+</body>
+</html>
